@@ -78,7 +78,9 @@ def get_all_posts(username, token):
 def search_posts(query, token, sort="latest", limit=25):
     posts = []
     
-    url = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+    # url = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+    url = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
+
     
     # Definir apenas os parâmetros essenciais
     params = {
