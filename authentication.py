@@ -2,7 +2,6 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
 
 def authenticate_bluesky(username, password):
